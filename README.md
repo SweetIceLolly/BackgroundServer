@@ -72,5 +72,5 @@ Sometimes blue screen doesn't work properly, IDK why XD
 
 I don't know, maybe you can tell me... but I won't fix them cuz this project was finished last year and I don't want to touch those code anymore! XDDDDD
 
-## License
+# License
 MIT
