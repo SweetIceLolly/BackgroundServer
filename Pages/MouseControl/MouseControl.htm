@@ -1,0 +1,28 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>Mouse Control</title>
+</head>
+
+<body>
+
+<p><span style="font-size: 20pt"><b>Mouse Control</b></span></p>
+<form method="POST" action="MouseControl">
+	<p>Wheel: <input type="submit" value="Up" name="cmdMouseWheelUp"><input type="submit" value="Down" name="cmdMouseWheelDown"></p>
+	<p>Left Button: <input type="submit" value="Down" name="cmdMouseLeftDown"><input type="submit" value="Up" name="cmdMouseLeftUp"><input type="submit" value="Click" name="cmdMouseLeftClick"></p>
+	<p>Middle Button: <input type="submit" value="Down" name="cmdMouseMiddleDown"><input type="submit" value="Up" name="cmdMouseMiddleUp"><input type="submit" value="Click" name="cmdMouseMiddleClick"></p>
+	<p>Right Button: <input type="submit" value="Down" name="cmdMouseRightDown"><input type="submit" value="Up" name="cmdMouseRightUp"><input type="submit" value="Click" name="cmdMouseRightClick"></p>
+	<p>Mouse Random Move: <input type="submit" value="Start" name="cmdStartRandomMove"><input type="submit" value="Stop" name="cmdStopRandomMove"></p>
+</form>
+<form method="POST" action="MouseControl">
+	<p>(<input type="text" name="edCurPosX" size="5">,
+	<input type="text" name="edCurPosY" size="5">)
+	<input type="submit" value="OK" name="cmdChangeCurPos"></p>
+</form>
+<p><a href="/">Back</a></p>
+
+</body>
+
+</html>

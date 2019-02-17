@@ -1,0 +1,289 @@
+<html>
+
+<head>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>Send Keys</title>
+</head>
+
+<body>
+
+<p><span style="font-size: 20pt"><b>Send Keys</b></span></p>
+<form method="POST" action="SendKeys">
+	<p>Send Text: <input type="text" name="SendText" size="32"></p>
+	<p><input type="checkbox" name="chkUseKeybdEvent" value="ON">Use keybd_event() function</p>
+	<p><input type="submit" value="Send" name="cmdSendKeys"></p>
+</form>
+<p><a href="/">Back</a></p>
+<p>　</p>
+<p>For SendKeys() function:</p>
+<table border="1" cols="2" style="margin: 0px 0px 10px; padding: 0px; border-collapse: collapse; border-spacing: 0px; color: rgb(46, 46, 46); font-family: Arial; font-size: 12.16px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);" id="table1">
+	<tbody style="margin: 0px; padding: 0px;">
+		<tr style="margin: 0px; padding: 0px;">
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			<b style="margin: 0px; padding: 0px;">Key</b></td>
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			<b style="margin: 0px; padding: 0px;">Code</b></td>
+		</tr>
+		<tr style="margin: 0px; padding: 0px;">
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			BACKSPACE</td>
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			{BACKSPACE}, {BS}, or {BKSP}</td>
+		</tr>
+		<tr style="margin: 0px; padding: 0px;">
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			BREAK</td>
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			{BREAK}</td>
+		</tr>
+		<tr style="margin: 0px; padding: 0px;">
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			CAPS LOCK</td>
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			{CAPSLOCK}</td>
+		</tr>
+		<tr style="margin: 0px; padding: 0px;">
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			DEL or DELETE</td>
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			{DELETE} or {DEL}</td>
+		</tr>
+		<tr style="margin: 0px; padding: 0px;">
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			DOWN ARROW</td>
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			{DOWN}</td>
+		</tr>
+		<tr style="margin: 0px; padding: 0px;">
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			END</td>
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			{END}</td>
+		</tr>
+		<tr style="margin: 0px; padding: 0px;">
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			ENTER</td>
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			{ENTER}or ~</td>
+		</tr>
+		<tr style="margin: 0px; padding: 0px;">
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			ESC</td>
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			{ESC}</td>
+		</tr>
+		<tr style="margin: 0px; padding: 0px;">
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			HELP</td>
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			{HELP}</td>
+		</tr>
+		<tr style="margin: 0px; padding: 0px;">
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			HOME</td>
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			{HOME}</td>
+		</tr>
+		<tr style="margin: 0px; padding: 0px;">
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			INS or INSERT</td>
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			{INSERT} or {INS}</td>
+		</tr>
+		<tr style="margin: 0px; padding: 0px;">
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			LEFT ARROW</td>
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			{LEFT}</td>
+		</tr>
+		<tr style="margin: 0px; padding: 0px;">
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			NUM LOCK</td>
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			{NUMLOCK}</td>
+		</tr>
+		<tr style="margin: 0px; padding: 0px;">
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			PAGE DOWN</td>
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			{PGDN}</td>
+		</tr>
+		<tr style="margin: 0px; padding: 0px;">
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			PAGE UP</td>
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			{PGUP}</td>
+		</tr>
+		<tr style="margin: 0px; padding: 0px;">
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			PRINT SCREEN</td>
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			{PRTSC}</td>
+		</tr>
+		<tr style="margin: 0px; padding: 0px;">
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			RIGHT ARROW</td>
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			{RIGHT}</td>
+		</tr>
+		<tr style="margin: 0px; padding: 0px;">
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			SCROLL LOCK</td>
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			{SCROLLLOCK}</td>
+		</tr>
+		<tr style="margin: 0px; padding: 0px;">
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			TAB</td>
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			{TAB}</td>
+		</tr>
+		<tr style="margin: 0px; padding: 0px;">
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			UP ARROW</td>
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			{UP}</td>
+		</tr>
+		<tr style="margin: 0px; padding: 0px;">
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			F1</td>
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			{F1}</td>
+		</tr>
+		<tr style="margin: 0px; padding: 0px;">
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			F2</td>
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			{F2}</td>
+		</tr>
+		<tr style="margin: 0px; padding: 0px;">
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			F3</td>
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			{F3}</td>
+		</tr>
+		<tr style="margin: 0px; padding: 0px;">
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			F4</td>
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			{F4}</td>
+		</tr>
+		<tr style="margin: 0px; padding: 0px;">
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			F5</td>
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			{F5}</td>
+		</tr>
+		<tr style="margin: 0px; padding: 0px;">
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			F6</td>
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			{F6}</td>
+		</tr>
+		<tr style="margin: 0px; padding: 0px;">
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			F7</td>
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			{F7}</td>
+		</tr>
+		<tr style="margin: 0px; padding: 0px;">
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			F8</td>
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			{F8}</td>
+		</tr>
+		<tr style="margin: 0px; padding: 0px;">
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			F9</td>
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			{F9}</td>
+		</tr>
+		<tr style="margin: 0px; padding: 0px;">
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			F10</td>
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			{F10}</td>
+		</tr>
+		<tr style="margin: 0px; padding: 0px;">
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			F11</td>
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			{F11}</td>
+		</tr>
+		<tr style="margin: 0px; padding: 0px;">
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			F12</td>
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			{F12}</td>
+		</tr>
+		<tr style="margin: 0px; padding: 0px;">
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			F13</td>
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			{F13}</td>
+		</tr>
+		<tr style="margin: 0px; padding: 0px;">
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			F14</td>
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			{F14}</td>
+		</tr>
+		<tr style="margin: 0px; padding: 0px;">
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			F15</td>
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			{F15}</td>
+		</tr>
+		<tr style="margin: 0px; padding: 0px;">
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			F16</td>
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			{F16}</td>
+		</tr>
+</table>
+<p style="margin: 0px 0px 10px; padding: 0px; line-height: 1.5em; color: rgb(46, 46, 46); font-family: Arial; font-size: 12.16px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">
+<br style="margin: 0px; padding: 0px;">
+To specify keys combined with any combination of the SHIFT, CTRL, and ALT keys, 
+precede the key code with one or more of the following codes:</p>
+<table border="1" cols="2" frame="below" rules="rows" style="margin: 0px 0px 10px; padding: 0px; border-collapse: collapse; border-spacing: 0px; color: rgb(46, 46, 46); font-family: Arial; font-size: 12.16px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);" id="table2">
+	<tbody style="margin: 0px; padding: 0px;">
+		<tr valign="top" style="margin: 0px; padding: 0px;">
+			<td class="label" style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			<b style="margin: 0px; padding: 0px;">Key</b></td>
+			<td class="label" style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			<b style="margin: 0px; padding: 0px;">Code</b></td>
+		</tr>
+		<tr style="margin: 0px; padding: 0px;">
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			SHIFT</td>
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			+</td>
+		</tr>
+		<tr style="margin: 0px; padding: 0px;">
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			CTRL</td>
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			^</td>
+		</tr>
+		<tr style="margin: 0px; padding: 0px;">
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			ALT</td>
+			<td style="margin: 0px 0px 10px; padding: 4px; font-size: 11px; border: 2px solid rgb(255, 255, 255); background-color: rgb(243, 243, 243);">
+			%</td>
+		</tr>
+</table>
+<p style="margin: 0px 0px 10px; padding: 0px; line-height: 1.5em; color: rgb(46, 46, 46); font-family: Arial; font-size: 12.16px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">
+To specify that any combination of SHIFT, CTRL, and ALT should be held down 
+while several other keys are pressed, enclose the code for those keys in 
+parentheses. For example, to specify to hold down SHIFT while E and C are 
+pressed, use &quot;+(EC)&quot;. To specify to hold down SHIFT while E is pressed, followed 
+by C without SHIFT, use &quot;+EC&quot;.</p>
+<p style="margin: 0px 0px 10px; padding: 0px; line-height: 1.5em; color: rgb(46, 46, 46); font-family: Arial; font-size: 12.16px; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 1; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255);">
+To specify repeating keys, use the form {key number}. You must put a space 
+between key and number. For example, {LEFT 42} means press the LEFT ARROW key 42 
+times; {h 10} means press H 10 times.</p>
+
+</body>
+
+</html>
