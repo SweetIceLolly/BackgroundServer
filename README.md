@@ -1,7 +1,7 @@
 # BackgroundServer
 A background server that allows you to manage your computer via a browser. Written in VB6.
 
-# Functions
+# Features
 **Password Protected**
 
 Password is required to manage your computer via a browser. You can set your own password.
